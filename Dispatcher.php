@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Provider;
+namespace Nyxio\Provider;
 
-use Nyx\Contract\Container\ContainerInterface;
-use Nyx\Contract\Provider\ProviderDispatcherInterface;
-use Nyx\Contract\Provider\ProviderInterface;
+use Nyxio\Contract\Container\ContainerInterface;
+use Nyxio\Contract\Provider\ProviderDispatcherInterface;
+use Nyxio\Contract\Provider\ProviderInterface;
 
 class Dispatcher implements ProviderDispatcherInterface
 {
